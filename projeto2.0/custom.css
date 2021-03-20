@@ -1,0 +1,98 @@
+/* PRINCIPAIS*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color:#fad000;
+}
+/*CABECALHO DA PAGINA*/
+header{
+    height: 80px;
+    background-color: black;
+
+   }    
+#logo{
+    float: left;
+    padding: 30px ;
+    }
+#menus{
+    float: right;
+    padding: 30px;
+}
+#menus a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    margin-right: 30px;
+    
+
+}
+/* CORPO PRINCIPAL*/
+h1{
+    background-color: #fad00067;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fad000;
+    color: #fad000;
+    padding: 50px;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: #fad000 ;
+    background-image: url('fundo.jpg');
+    background-size: 100%;
+}
+ul{
+    text-align: left;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+#formulario{
+    text-align: center;
+    width: 550px;
+    min-height: 400px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 20% 500px 20% 500px ;
+    
+}
+input{
+    border-radius: 30px;
+    width: 200px;
+}
+#data{
+    width: auto;
+    text-align: center;
+}
+
+h2{
+    color:#fad000;
+    padding-top: 50px;
+}
+button{
+    border-radius: 50px;
+    background-color:black;
+    color: #fad000;
+    width: 200px;
+    min-height: 30px;
+    font-size: 20px;
+    
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+/* RODAPE DA PAGINA*/
+footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    padding: 0px;
+    font-style: italic;
+    margin: auto;
+}
